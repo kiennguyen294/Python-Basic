@@ -1,5 +1,5 @@
 # from pythonds.bacsic import Stack
-from pythonds.basic import Stack
+#from pythonds.basic import Stack
 
 
 class Stack:
