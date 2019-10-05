@@ -11,3 +11,21 @@
 - Tên hàm : chữ thường 
              nối bằng dấu '_'
 - Tên class: giống trong java
+
+## Create env 
+#### Install virtualenv
+```
+python3 -m pip install --user --upgrade pip
+```
+#### Create env
+```
+python3 -m venv env
+```
+#### Active env
+```
+source env/bin/activate
+```
+#### Intall packages
+```
+pip install requests
+```
