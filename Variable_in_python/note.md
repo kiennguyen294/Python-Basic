@@ -29,3 +29,62 @@ Python cũng có các toán tử tương tự các ngôn ngữ khác
   - Kiểu Danh sách - list
   - Từ điển - dictionary
   - None
+
+## 6. String
+Python has three different ways to accomplish string formatting:
+```
+    - Using the % method
+    - Using .format()
+    - using formatted string literals (f-string)
+```
+To concatenate (ket noi) string:
+```
+    - Use +
+    - Use .join() method
+```
+String slicing
+```
+    my_string[0:4]: grad characters 0-3
+```
+## 7. Numeric
+Các kiểu số:
+```
+  - int
+  - float
+  - complex
+ ```
+## 8. Kiểu List
+### Create List
+Các cách tạo một List:
+```
+- Khởi tạo một List empty: []
+- Khởi tạo List có các thành phần ngăn cách bới dấu ',' : [1,2,3]
+- Sử dụng list() function
+```
+### List Methods
+```
+- append()
+- clear()
+- copy()
+- count()
+- extend()
+- index()
+- insert()
+- pop()
+- remove()
+- reverse()
+- sort()
+```
+#### Adding to a List
+```
+  - append(): add item to the end of a pre-existing list
+  - extend(): sử dụng để thêm list vào 1 list khác
+  - insert(): thêm item vào vị trí mong muốn. Ex: my_list.insert(0, 'first'): thêm 'first' vào vị trí 0
+```
+#### Delete from a List
+```
+  - clear(): remove everyhing from the list
+  - pop(): 
+  - remove(): xóa phần tử đầu tiên giống với giá trị truyền vào
+  - del
+```
