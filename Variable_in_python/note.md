@@ -113,5 +113,45 @@ Nếu dùng **dir(tuple())** ta có 2 phương thức là **count()** và **inde
 >>> a_tuple.index(2)
 1
 ```
+## 10. Dictionaries
+Dictionaries là kiểu dữ liệu dạng (key,value).
+### Create dictionaries
+Có nhiều cách để create một Dictionaries. EX
+```
+sample_dict = {'first_namme': 'James', 'last_name': 'Doe'}
+or
+numbers = dict(one=1, two=2, three=3)
+or
+info_list = [('first_name', 'James'), ('last_name', 'Doe'),('email', 'jdoes@gmail.com')]
+```
+### Accessing Dictionaries
+Có thể access mọi giá trị trong Dict thông qua *key*. Nếu *key* không tìm thấy, bạn sẽ nhận được mã lỗi *KeyError*. E.x
+```
+>>> sample_dict = {'first_name': 'James', 'last_name': 'Doe',
+'email': 'jdoe@gmail.com'}
+>>> sample_dict['first_name']
+'James'
+```
+### Dictionaries methods
+*d.get(key[, default])*: sử dụng *get()* method để get giá trị, hamg *get()* cần biến truyền vào là *key*. Có thể thêm option *default* nếu 
+trường hợp không thấy *key* thì sẽ trả lại *default*. EX:
+```
+>>> print(sample_dict.get('address'))
+None
+>>> print(sample_dict.get('address', 'Not Found'))
+Not Found
+```
+
+*d.clear()*: Sủ dụng để xóa toàn bộ items từ dictionaries
+*d.copy()*:
+*d.items():
+*d.key()*:
+*d.value()*
+*d.pop(key [, default])*
+*d.popitem()*:
+*d.update([other])*:
+## 11. Sets
+
+
 
 
