@@ -88,3 +88,30 @@ Các cách tạo một List:
   - remove(): xóa phần tử đầu tiên giống với giá trị truyền vào
   - del
 ```
+## 9. Tuples
+### Khái niệm
+Tuple trong Python là một kiểu dữ liệu dùng để lưu trữ các đối tượng không thay đổi về sau (giống như hằng số). Còn lại thì cách lưu trữ của nó cũng khá giống như kiểu dữ liệu list
+### Khai báo
+Có nhiều cách để khai báo một Tuple:
+```
+>>> a_tuple = 4,5
+or
+>>> a tuple = (2,3,4)
+```
+### Làm việc với Tuple
+Nếu dùng **dir(tuple())** ta có 2 phương thức là **count()** và **index()**
+
+**count()** dùng để find có bao nhiêu phần tử match với value truyền vào. ex:
+```
+>>> a_tuple = (1,2,3,3)
+>>> a_tuple.count(3)
+2
+```
+**index()** tìm kiếm index đầu tiên có giá trị bằng value truyền vào. EX:
+```
+>>> a_tuple = (1,2,3,3)
+>>> a_tuple.index(2)
+1
+```
+
+
