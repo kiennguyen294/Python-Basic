@@ -19,7 +19,7 @@ class WritingThread(Thread):
                 text = f'This is line {line + 1} \n'
                 f.write(text)
                 time.sleep(self.work_time)
-        print(f'Fonished wrinting {self.filename}')
+        print(f'Finished writing {self.filename}')
 
 
 if __name__ == '__main__':
