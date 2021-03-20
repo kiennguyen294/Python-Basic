@@ -15,7 +15,7 @@ greenlet==1.0.0
 idna==2.10
 iso8601==0.1.13
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 kombu==5.0.2
 linecache2==1.0.0
 MarkupSafe==1.1.1
