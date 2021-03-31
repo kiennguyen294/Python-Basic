@@ -30,6 +30,19 @@
 # data = [{1,2,3}, {4,5,6}, {7,8,9}]
 # name,age,email = data
 
+class Point:
+    pass
+
+
+p1 = Point()
+p2 = Point()
+p1.x = 5
+p1.y = 6
+
+p2.x = 4
+p2.y = 3
+
+
 def log(number):
     print(f'Processing {number}')
     print(f'Adding 2 to number: {number + 2}')
@@ -40,5 +53,20 @@ def looper(number):
         log(i)
 
 
-if __name__=='__main__':
+database = None
+
+
+class Database:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+def initialize_database():
+    global database
+    database = Database('Kien', 28)
+
+
+if __name__ == '__main__':
+    initialize_database()
     looper(5)

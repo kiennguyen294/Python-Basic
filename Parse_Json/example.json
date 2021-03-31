@@ -1,0 +1,21 @@
+{
+	"groups": [
+		{
+			"name": "alert.rules",
+			"rules": [
+				{
+					"alert": "InstanceDown",
+					"expr": "up{instance=\"172.16.8.21:9242\",job=\"rgw_exporter\"} == 0",
+					"for": "1m",
+					"labels": {
+						"severity": "critical"
+					},
+					"annotations": {
+						"summary": "Endpoint {{ $labels.instance }} down",
+						"description": "{{ $labels.instance }} of job {{ $labels.job }} has been down for more than 1 minutes."
+					}
+				}
+			]
+		}
+	]
+}
