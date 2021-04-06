@@ -58,7 +58,7 @@ testtools==2.4.0
 tqdm==4.56.0
 traceback2==1.4.0
 unittest2==1.1.0
-urllib3==1.26.3
+urllib3==1.26.4
 vine==5.0.0
 WebOb==1.8.6
 Werkzeug==1.0.1
