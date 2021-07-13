@@ -1,5 +1,6 @@
 "Abstract Factory Use Case Example Code"
 from furniture_factory import FurnitureFactory
+from collections import Counter
 
 
 def main():
